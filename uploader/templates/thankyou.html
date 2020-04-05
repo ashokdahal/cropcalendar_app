@@ -1,0 +1,16 @@
+{% include "headers.html" %}
+<h2>
+    Thank you for uploading the file.
+</h2>
+<br>
+</br>
+
+<h3>
+    {% if uploaded_file_url %}
+    <p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+    <p> Your unique site ID for the earth engine project site is located at: </p>
+    <p style="color:red;"> users/ashok_dahal/cropsites/{{filename}} </p>
+    <p>Please use this site ID for calculating the crop calendar</p>
+  {% endif %}
+</h3>
+<a class="btn btn-primary" href="/uploader/" role="button">Return to Uploader</a>
