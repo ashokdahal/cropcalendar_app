@@ -31,11 +31,11 @@ def long_process(ins):
     time.sleep(1800)
     stream = os.popen(download_gs)
     local_file=r' D:/django/cropcalendar/download/'+filename+'.tif'
-    uploadpostgres='raster2pgsql -s 2037 -c -I  '+ local_file+'  '+filename+' |psql "postgres://postgres:puntu@127.0.0.1:5432/postgres"'
+    uploadpostgres='raster2pgsql -s 2037 -c -I  '+ local_file+'  '+filename+' |psql "postgres://postgres:PASS@127.0.0.1:5432/postgres"'
     stream2 = os.popen(uploadpostgres)
     try:
         connection = psycopg2.connect(user="postgres",
-                                        password="puntu",
+                                        password="PASS",
                                         host="127.0.0.1",
                                         port="5432",
                                         database="postgres")
