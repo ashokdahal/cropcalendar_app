@@ -37,3 +37,15 @@ postgres://postgres:PASS@127.0.0.1:5432/postgres
 
 Save the project and run server again. Open the browser and login to google earth engine and visit crop calendar at 127.0.0.1:8000 . Please use google chrome and have this extension installed https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe
 
+New links
+
+Season 1
+https://code.earthengine.google.com/73f7e4b8230bceebb9b5950fc2165139?hideCode=true
+
+season 2
+https://code.earthengine.google.com/d9c51c7e55e912c9cdc2389fb85b8f4b?hideCode=true
+
+season 3
+https://code.earthengine.google.com/7f4450126568382e964b7df7b9d1c98a?hideCode=true
+
+
